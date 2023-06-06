@@ -1,0 +1,16 @@
+{
+  "name": "tree-store",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "vitest"
+  },
+  "author": "Pavel Cherepanov",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3",
+    "vitest": "^0.31.4"
+  }
+}
