@@ -5,6 +5,7 @@ interface TreeItem {
 }
 
 export class TreeStore {
+  
   private itemsById: Map<TreeItem["id"], TreeItem> = new Map();
   private itemsByParentId: Map<TreeItem["parent"], TreeItem[]> = new Map();
 
